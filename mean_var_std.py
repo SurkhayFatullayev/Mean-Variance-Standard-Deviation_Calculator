@@ -1,6 +1,6 @@
 import numpy as np
 
-def main(lst):
+def calculate(lst):
     
     matrix = np.array(lst).reshape(3, 3)
     
@@ -13,4 +13,4 @@ def main(lst):
         'sum': [matrix.sum(axis=0).tolist(), matrix.sum(axis=1).tolist(), matrix.sum().tolist()]
     }
     
-    return main
+    return calculate
