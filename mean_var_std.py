@@ -13,4 +13,4 @@ def calculate(lst):
         'sum': [matrix.sum(axis=0).tolist(), matrix.sum(axis=1).tolist(), matrix.sum().tolist()]
     }
     
-    return calculate
+    return calculations
